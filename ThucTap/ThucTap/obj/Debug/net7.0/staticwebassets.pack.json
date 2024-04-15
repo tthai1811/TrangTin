@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ThucTap.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ThucTap.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\css\\theme.min.css",
+      "PackagePath": "staticwebassets\\css\\theme.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\fonts\\cartzilla-icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\cartzilla-icons.svg"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\fonts\\cartzilla-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\cartzilla-icons.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\fonts\\cartzilla-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\cartzilla-icons.woff"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\002.png",
+      "PackagePath": "staticwebassets\\img\\002.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\03.jpg",
+      "PackagePath": "staticwebassets\\img\\03.jpg"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\an.png",
+      "PackagePath": "staticwebassets\\img\\an.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\anh1.png",
+      "PackagePath": "staticwebassets\\img\\anh1.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\anh2.png",
+      "PackagePath": "staticwebassets\\img\\anh2.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\anh3.png",
+      "PackagePath": "staticwebassets\\img\\anh3.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\anhmobi.png",
+      "PackagePath": "staticwebassets\\img\\anhmobi.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\ap.png",
+      "PackagePath": "staticwebassets\\img\\ap.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\banner1.png",
+      "PackagePath": "staticwebassets\\img\\banner1.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\banner2.png",
+      "PackagePath": "staticwebassets\\img\\banner2.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\banner3.png",
+      "PackagePath": "staticwebassets\\img\\banner3.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\face.png",
+      "PackagePath": "staticwebassets\\img\\face.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\tiktok.png",
+      "PackagePath": "staticwebassets\\img\\tiktok.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\youtube.png",
+      "PackagePath": "staticwebassets\\img\\youtube.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\img\\zalo.png",
+      "PackagePath": "staticwebassets\\img\\zalo.png"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\js\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\theme.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\ckeditor5\\ckeditor.js",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\ckeditor5\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\ckeditor.js.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\ckeditor5\\index.html",
+      "PackagePath": "staticwebassets\\lib\\ckeditor5\\index.html"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-sharp-light-300.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-sharp-light-300.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-sharp-light-300.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-sharp-light-300.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-sharp-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-sharp-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-sharp-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-sharp-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-sharp-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-sharp-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-sharp-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-sharp-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\css\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validate\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validate\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validate\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validate\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validate\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validate\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\drift-zoom\\Drift.min.js",
+      "PackagePath": "staticwebassets\\vendor\\drift-zoom\\Drift.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\drift-zoom\\drift-basic.min.css",
+      "PackagePath": "staticwebassets\\vendor\\drift-zoom\\drift-basic.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\lightgallery\\lightgallery-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\lightgallery-bundle.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\lightgallery\\lightgallery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\lightgallery.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\lightgallery\\plugins\\fullscreen\\lg-fullscreen.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\plugins\\fullscreen\\lg-fullscreen.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\lightgallery\\plugins\\video\\lg-video.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\plugins\\video\\lg-video.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\lightgallery\\plugins\\zoom\\lg-zoom.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\plugins\\zoom\\lg-zoom.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\vendor\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\vendor\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\shufflejs\\shuffle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\shufflejs\\shuffle.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\simplebar\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\vendor\\simplebar\\simplebar.min.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\vendor\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\smooth-scroll\\smooth-scroll.polyfills.min.js",
+      "PackagePath": "staticwebassets\\vendor\\smooth-scroll\\smooth-scroll.polyfills.min.js"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\vendor\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "E:\\TrangTin\\ThucTap\\ThucTap\\wwwroot\\vendor\\tiny-slider\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\vendor\\tiny-slider\\tiny-slider.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ThucTap.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ThucTap.props",
+      "PackagePath": "build\\ThucTap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ThucTap.props",
+      "PackagePath": "buildMultiTargeting\\ThucTap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ThucTap.props",
+      "PackagePath": "buildTransitive\\ThucTap.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

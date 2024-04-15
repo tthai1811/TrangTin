@@ -1,0 +1,121 @@
+﻿@model ThucTap.Models.PhanTrangBaiViet
+@using System.Text.RegularExpressions
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+	.image-container {
+		position: relative;
+		width: 100%;
+		height: 400px;
+		overflow: hidden;
+	}
+
+		.image-container img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 150%;
+			height: 100%;
+			object-fit: cover;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+			.image-container img.active {
+				opacity: 1;
+			}
+
+    .card-img-top {
+        width: 100%;
+        height: 200px; /* Chỉnh kích thước tùy ý */
+        object-fit: cover;
+        .card
+    }
+
+    .card {
+        border: 2px solid #333; /* Màu và độ rộng của viền */
+        border-radius: 10px; /* Bo tròn góc của khung */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+        transition: transform 0.3s; /* Hiệu ứng chuyển đổi */
+    }
+
+        .card:hover {
+            transform: scale(1.05); /* Phóng to khi hover */
+        }
+</style>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		var images = document.querySelectorAll(".image-container img");
+		var currentImageIndex = 0;
+
+		setInterval(function () {
+			images[currentImageIndex].classList.remove("active");
+			currentImageIndex = (currentImageIndex + 1) % images.length;
+			images[currentImageIndex].classList.add("active");
+		}, 4000); // Thời gian chuyển đổi: 5000ms (5 giây)
+	});
+</script>
+
+<section class="container mt-4 mb-grid-gutter align-items-center justify-content-center">
+    <div class="image-container">
+        <img src="~/img/banner1.png" class="active" alt="Ảnh" />
+        <img src="~/img/banner2.png" alt="Ảnh" />
+        <img src="~/img/banner3.png" alt="Ảnh" />
+    </div>
+</section>
+
+@await Component.InvokeAsync("LoaiDichVu")
+
+             <hr style="border: none; height: 1px; background-color: black; margin-top: 20px; margin-bottom: 20px;">
+            <div style="text-align: center; margin-bottom: 20px;"><strong>Bài viết gần đây</strong></div>
+<hr style="border: none; height: 1px; background-color: black; margin-top: 20px; margin-bottom: 20px;">
+    </div>
+<div class="container pb-5 mb-2 mb-md-4">
+    <div class="pt-3 mt-md-3">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            @foreach (var item in Model.BaiViet.Take(3))
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        <a class="blog-entry-thumb" asp-area="" asp-controller="BaiViet" asp-action="ChiTiet" asp-route-tieuDe="@item.TieuDeKhongDau" asp-route-tenChuDe="@item.ChuDe.TenChuDeKhongDau">
+                            @{
+                                string hinhAnhDauTien = Regex.Match(item.NoiDung, "<img.+?src=[\"'](.+?)[\"'].*?>", RegexOptions.IgnoreCase).Groups[1].Value.Replace("&amp;", "&");
+                                if (string.IsNullOrEmpty(hinhAnhDauTien)) hinhAnhDauTien = "/img/noimage.png";
+                            }
+                            <img class="card-img-top" src="@hinhAnhDauTien" alt="Ảnh minh họa" />
+                        </a>
+                        <div class="card-body">
+                            <h2 class="h6 blog-entry-title">
+                                <a asp-area="" asp-controller="BaiViet" asp-action="ChiTiet" asp-route-tieuDe="@item.TieuDeKhongDau" asp-route-tenChuDe="">@item.TieuDe</a>
+                            </h2>
+                            <p class="fs-sm" style="text-align:justify">
+                                @if (item.TomTat.Length > 100)
+                                {
+                                    <text>@item.TomTat.Substring(0, 100)  "..."</text>
+                                }
+                                else
+                                {
+                                    <text>@item.TomTat</text>
+                                }
+                            </p>
+                            <a class="btn-tag me-2 mb-2" asp-area="" asp-controller="BaiViet" asp-action="ChuDe" asp-route-tenChuDe="@item.ChuDe.TenChuDeKhongDau">@item.ChuDe.TenChuDe</a>
+                        </div>
+                        <div class="card-footer d-flex align-items-center fs-xs">
+                            <a class="blog-entry-meta-link" href="#author">
+                                <div class="blog-entry-author-ava"><img src="~/img/03.jpg" alt="Ảnh đại diện" /></div>@item.NguoiDung.HoVaTen
+                            </a>
+                            <div class="ms-auto text-nowrap">
+                                <a class="blog-entry-meta-link text-nowrap" href="#date">@item.NgayDang</a>
+                                <span class="blog-entry-meta-divider mx-2"></span>
+                                <a class="blog-entry-meta-link text-nowrap" href="#views"><i class="ci-eye"></i>@item.LuotXem</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+       
+    </div>
+</div>

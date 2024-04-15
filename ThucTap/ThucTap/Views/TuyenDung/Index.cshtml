@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ThucTap.Models.TuyenDung>
+@using System.Text.RegularExpressions
+@{
+    ViewData["Title"] = "Tuyển Dụng";
+}
+<style>
+    .img-container {
+        padding: 10px; /* Padding cho phần container của hình ảnh */
+    }
+
+    .img-fluid {
+         border: 2px solid #ccc; /* Viền cho ảnh */
+        border-radius: 5px; /* Bo góc */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+        overflow: hidden; /* Ẩn phần nội dung vượt ra khỏi khung */
+    }
+
+    .img-fluid.clicked {
+        transform: scale(1.1); /* Phóng to hình ảnh khi click */
+    }
+</style>
+<div class="bg-secondary py-4">
+    <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+        <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+                    <li class="breadcrumb-item">
+                        <a class="text-nowrap" asp-area="" asp-controller="Home" asp-action="Index"><i class="ci-home"></i>Trang chủ</a>
+                    </li>
+                    <li class="breadcrumb-item text-nowrap active" aria-current="page">Tuyển Dụng</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+            <h1 class="h3 mb-0">Tuyển Dụng</h1>
+        </div>
+    </div>
+</div>
+
+<section class="container pt-3 pb-5">
+    @foreach (var tuyenDung in Model)
+    {
+        <div class="row">
+            <div class="col-md-8 mb-3 mb-md-0">
+                <text>@Html.Raw(tuyenDung.NoiDung)</text>
+            </div>
+            <div class="col-md-4">
+                <img src="~/img/anh2.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    }
+</section>

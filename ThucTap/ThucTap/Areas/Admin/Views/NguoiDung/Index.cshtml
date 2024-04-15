@@ -1,0 +1,93 @@
+﻿@model IEnumerable<ThucTap.Models.NguoiDung>
+
+@{
+    ViewData["Title"] = "Người dùng";
+}
+
+@{
+    var quanLyList = Model.Where(u => u.Quyen).ToList(); // Danh sách người quản lý
+    var khachHangList = Model.Where(u => !u.Quyen).ToList(); // Danh sách khách hàng
+}
+
+<!-- Bảng danh sách người quản lý -->
+<div class="card mb-4">
+    <h5 class="card-header">Danh sách người quản lý</h5>
+    <div class="card-body">
+        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr>
+                    <th width="5%">#</th>
+                    <th>@Html.DisplayNameFor(model => model.HoVaTen)</th>
+                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                    <th>@Html.DisplayNameFor(model => model.DienThoai)</th>
+                    <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
+                    <th>@Html.DisplayNameFor(model => model.DiaChi)</th>
+                    <th>@Html.DisplayNameFor(model => model.TenDangNhap)</th>
+                    <th>@Html.DisplayNameFor(model => model.NgayTao)</th>
+                    <th width="5%">Sửa</th>
+                    <th width="5%">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in quanLyList)
+                {
+                    <tr>
+                        <td>@user.ID</td>
+                        <td>@user.HoVaTen</td>
+                        <td>@user.Email</td>
+                        <td>@user.DienThoai</td>
+                        <td>@user.GioiTinh</td>
+                        <td>@user.DiaChi</td>
+                        <td>@user.TenDangNhap</td>
+                        <td>@user.NgayTao</td>
+                        <td class="text-center"><a asp-action="Edit" asp-route-id="@user.ID"><i class="fa fa-edit"></i></a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-route-id="@user.ID" onclick="return confirm('Bạn có chắc chắn muốn xóa không?')"><i class="fa fa-trash"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Bảng danh sách khách hàng -->
+<div class="card">
+    <h5 class="card-header">Danh sách khách hàng</h5>
+    <div class="card-body">
+
+        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr>
+                    <th width="5%">#</th>
+                    <th>@Html.DisplayNameFor(model => model.HoVaTen)</th>
+                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                    <th>@Html.DisplayNameFor(model => model.DienThoai)</th>
+                    <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
+                    <th>@Html.DisplayNameFor(model => model.DiaChi)</th>
+                    <th>@Html.DisplayNameFor(model => model.TenDangNhap)</th>
+                    <th>@Html.DisplayNameFor(model => model.NgayTao)</th>
+                    <th width="5%">Sửa</th>
+                    <th width="5%">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in khachHangList)
+                {
+                    <tr>
+                        <td>@user.ID</td>
+                        <td>@user.HoVaTen</td>
+                        <td>@user.Email</td>
+                        <td>@user.DienThoai</td>
+                        <td>@user.GioiTinh</td>
+                        <td>@user.DiaChi</td>
+                        <td>@user.TenDangNhap</td>
+                        <td>@user.NgayTao</td>
+                        <td class="text-center"><a asp-action="Edit" asp-route-id="@user.ID"><i class="fa fa-edit"></i></a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-route-id="@user.ID" onclick="return confirm('Bạn có chắc chắn muốn xóa không?')"><i class="fa fa-trash"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

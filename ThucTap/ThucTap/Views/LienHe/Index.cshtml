@@ -1,0 +1,146 @@
+﻿@{
+	ViewData["Title"] = "Liên hệ";
+}
+<style>
+	.table {
+		margin: 0 auto; /* Để căn giữa bảng */
+		width: 80%; /* Điều chỉnh chiều rộng của bảng */
+	}
+
+		/* Tùy chỉnh kiểu và màu của header */
+		.table th {
+			background-color: #007bff;
+			color: white;
+		}
+
+		/* Tùy chỉnh kiểu và màu của các dòng trong bảng */
+		.table td, .table th {
+			padding: 8px; /* Điều chỉnh khoảng cách bên trong ô */
+			border: 1px solid #dee2e6; /* Đường viền của ô */
+		}
+
+		/* Tùy chỉnh màu nền và viền cho các dòng chẵn */
+		.table tbody tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+</style>
+<div class="bg-secondary py-4">
+	<div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+		<div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+					<li class="breadcrumb-item">
+						<a class="text-nowrap" asp-area="" asp-controller="Home" asp-action="Index"><i class="ci-home"></i>Trang chủ</a>
+					</li>
+
+					<li class="breadcrumb-item text-nowrap active" aria-current="page">Liên hệ</li>
+
+				</ol>
+			</nav>
+		</div>
+		<div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+			<h1 class="h3 mb-0">Liên hệ</h1>
+		</div>
+	</div>
+</div>
+<div class="container-fluid px-0" id="map">
+	<div class="row g-0">
+		<div class="col-lg-6 iframe-full-height-wrap">
+			<iframe class="iframe-full-height" width="600" height="250"
+					src="https://www.google.com/maps/embed?pb=!!1m18!1m12!1m3!1d3924.725455699337!2d105.4482667748119!3d10.36382298976098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a73087f94eefd%3A0x3c80ded60b9873e5!2zOTMgVHLhuqduIEjGsG5nIMSQ4bqhbywgUCwgVGjDoG5oIHBo4buRIExvbmcgWHV5w6puLCBBbiBHaWFuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1712246727823!5m2!1svi!2s"></iframe>
+		</div>
+		<div class="col-lg-6 px-4 px-xl-5 py-5 border-top">
+			<form class=" mb-3" id="Myform">
+				<div class="row g-3">
+					<div class="col-12">
+						<h2 class="h4 mb-4 small">MOBIFONE TỈNH AN GIANG</h2>
+						<h2 class="h4 mb-4 small">Số 93, Trần Hưng Đạo, Phường Mỹ Quý, Tp Long Xuyên, Tỉnh An Giang.</h2>
+						<h2 class="h4 mb-4 small">Hotline: 077 924 9999</h2>
+
+						<h2 class="h4 mb-4 small">Thứ 2 - Thứ 6: 08:00 AM - 05:00 PM</h2>
+						<h2 class="h4 mb-4 small">Thứ 7 - Chủ Nhật: 10:00 AM - 21:00 PM</h2>
+						
+						<label class="form-label" for="NoiDung">Góp ý của bạn:&nbsp;<span class="text-danger">*</span></label>
+						<textarea class="form-control" id="NoiDung" rows="6"></textarea>
+						<button id="submit" class="btn btn-primary mt-4" type="submit">Gởi tin nhắn</button>
+
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+<hr style="border: none; height: 1px; background-color: black; margin-top: 20px; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 20px;"><strong></strong></div>
+<hr style="border: none; height: 1px; background-color: black; margin-top: 20px; margin-bottom: 20px;">
+	</div>
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Tên Cửa Hàng</th>
+			<th scope="col">Địa Chỉ Cửa Hàng</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Cửa Hàng Liên Kết MobiFone TT Chợ Mới</td>
+			<td>65, Tỉnh Lộ 942, Thị Trấn Chợ Mới, Huyện Chợ Mới, Tỉnh An Giang</td>
+		</tr>
+		<tr>
+			<td>Cửa Hàng Liên Kết MobiFone Bình Mỹ</td>
+			<td>Hữu Phước 3 QL 91, Ấp Bình Hưng 1, Bình Mỹ, Châu Phú, An Giang</td>
+		</tr>
+		<tr>
+			<td>Điểm Giao Dịch Tp.Long Xuyên</td>
+			<td>106 Trần Hưng Đạo, P. Mỹ Bình, Tp. Long Xuyên, An Giang</td>
+		</tr>
+		<tr>
+			<td>Điểm Giao Dịch MobiFone Chợ Mới</td>
+			<td>167, Tỉnh lộ 942, Ấp thị 2, T.Trấn Mỹ Luông, Chợ Mới, An Giang</td>
+		</tr>
+		<tr>
+			<td>Cửa hàng MobiFone Long Xuyên</td>
+			<td>93 Trần Hưng Đạo, P. Mỹ Qúy, TP. Long Xuyên, tỉnh An Giang</td>
+		</tr>
+		<tr>
+			<td>Cửa hàng MobiFone Châu Đốc</td>
+			<td> 182-184, Đường Lê Lợi, Khóm. Châu Quới, P. Châu Phú B, Tp. Châu Đốc</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+
+		const message = document.getElementById("NoiDung");
+		const submit = document.getElementById("submit");
+
+		submit.addEventListener("click", async (e) => {
+			e.preventDefault();
+
+			const data = {
+				message: message.value
+			};
+
+		    postGoogle(data);
+			document.getElementById("Myform").reset();
+			alert("Gửi thành công!");
+		});
+
+		async function postGoogle(data) {
+			const formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdBs1-5AuKo_zM9hJdVZTUNcLBs9hskMkXtA8EMdgQQhYNF8Q/formResponse";
+			const formData = new FormData();
+			formData.append('entry.1301871671', data.message);
+
+			await fetch(formURL, {
+				method: "POST",
+				body: formData,
+			});
+			
+		}
+	});
+
+</script>

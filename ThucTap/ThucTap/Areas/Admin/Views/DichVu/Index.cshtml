@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ThucTap.Models.DichVu>
+
+@{
+    ViewData["Title"] = "Dịch Vụ";
+}
+
+<div class="card">
+    <h5 class="card-header">@ViewData["Title"]</h5>
+    <div class="card-body">
+        <p><a asp-action="Create" class="btn btn-success"><i class="fa-light fa-plus"></i> Thêm mới</a></p>
+        <table class="table table-sm table-hover table-striped table-bordered mb-0">
+            <thead>
+                <tr>
+                    <th width="5%">#</th>
+                    <th>@Html.DisplayNameFor(model => model.LoaiDichVu.TenLoai)</th>
+                    <th>@Html.DisplayNameFor(model => model.TenDV)</th>
+                    <th>@Html.DisplayNameFor(model => model.TieuDe)</th>
+                    <th width="40%">@Html.DisplayNameFor(model => model.NoiDung)</th>
+                    <th width="5%">Sửa</th>
+                    <th width="5%">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@stt</td>
+                        <td>@Html.DisplayFor(modelItem => item.LoaiDichVu.TenLoai)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TenDV)</td>
+                         <td class="truncate">@Html.Raw(item.TieuDe)</td>
+                        <td class="truncate">@Html.Raw(item.NoiDung)</td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.ID"><i class="fa-light fa-pen-to-square"></i></a>
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Delete" asp-route-id="@item.ID"><i class="fa-light fa-trash-can text-danger"></i></a>
+                        </td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/lib/ckeditor5/ckeditor.js"></script>
+    <script>
+        ClassicEditor.create(document.querySelector('.ckeditor'), {
+            licenseKey: '',
+        }).then(editor => {
+            window.editor = editor;
+        }).catch(error => {
+            console.error(error);
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var elements = document.querySelectorAll('.truncate');
+
+            elements.forEach(function (element) {
+                var content = element.textContent.trim();
+                if (content.length > 50) {
+                    element.textContent = content.slice(0, 50) + '...';
+                }
+            });
+        });
+    </script>
+}
